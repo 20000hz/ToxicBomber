@@ -147,7 +147,7 @@ def check(sent):
 
 #Get Target Number
 def getNumber():
-    number = input("\n    \033[92m[\033[37m*\033[92m] \033[37mEnter Target (\033[92mWithout +88\033[37m):> \033[37m")
+    number = input("\n    \033[92m[\033[37m*\033[92m] \033[37mEnter Target (\033[92mWithout +86\033[37m):> \033[37m")
     if not number.isdigit():
         psb("\n    \033[92m[\033[91m!\033[92m] \033[37mPlease Enter a Correct Number!")
         number = getNumber()
